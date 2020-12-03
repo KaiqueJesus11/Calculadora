@@ -1,0 +1,58 @@
+.button {
+    border: 1px solid;
+    border-color: black;
+    height: 60px;
+    margin-top: 10px;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: khaki;
+    cursor: pointer;
+}
+
+.buttonOperator {
+    margin-right: 0px;
+    background-color: yellow;
+}
+
+.buttonResult {
+    background-color: yellowgreen;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-color: black;
+    height: 380px;
+    margin-top: 60px;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.containerNumbers {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+
+    ;
+}
+
+.containerVisor {
+    border: 1px solid;
+    border-color: black;
+    height: 40px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
